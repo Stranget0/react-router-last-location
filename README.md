@@ -2,6 +2,10 @@
 [![Coverage Status](https://coveralls.io/repos/github/hinok/react-router-last-location/badge.svg?branch=master)](https://coveralls.io/github/hinok/react-router-last-location?branch=master)
 
 # react-router-last-location
+## original
+https://www.npmjs.com/package/react-router-last-location
+
+This is just a copy to update peer dependency of react to 17
 
 - Provides access to the last location in `react` + `react-router (v4.x, v5.x)` applications.
 - ❤️ Using [`hooks`](https://reactjs.org/docs/hooks-overview.html)? If yes, `useLastLocation`.
