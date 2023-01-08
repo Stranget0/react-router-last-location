@@ -2,7 +2,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/hinok/react-router-last-location/badge.svg?branch=master)](https://coveralls.io/github/hinok/react-router-last-location?branch=master)
 
 # react-router-last-location
-## [!https://www.npmjs.com/package/react-router-last-location](Original)
+## [Original](https://www.npmjs.com/package/react-router-last-location)
 
 
 This is just a copy to update peer dependency of react to 17
