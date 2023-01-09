@@ -1,5 +1,4 @@
 {
-  "extends": "airbnb",
   "parserOptions": {
     "ecmaVersion": 7,
     "sourceType": "module",
@@ -8,7 +7,7 @@
       "jsx": true
     }
   },
-  "parser": "babel-eslint",
+  "parser": "@typescript-eslint/parser",
   "env": {
     "browser": true,
     "node": true,
@@ -17,14 +16,8 @@
     "jest": true
   },
   "rules": {
+    "linebreak-style": "off",
     "react/jsx-filename-extension": "off",
-    "react/jsx-one-expression-per-line": "off",
-    "jsx-a11y/anchor-is-valid": [
-      "error",
-      {
-        "components": ["Link"],
-        "specialLink": ["to"]
-      }
-    ]
+    "react/jsx-one-expression-per-line": "off"
   }
 }

@@ -12,7 +12,7 @@ const RedirectWithoutLastLocation: React.FC<RedirectProps> = ({ to, ...rest }) =
       ...to,
       state: {
         preventLastLocation: true,
-        ...to.state,
+        ...to.state as any,
       },
     };
   }
